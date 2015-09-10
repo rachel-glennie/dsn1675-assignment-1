@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+	margin: 0em;
+	font-family: "Optima", sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: "Futura", sans-serif;
+}
+
+nav ol{
+	margin: 0em;
+	padding: 0em;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav li {
+	list-style-type: none;
+	float: left;
+	width: 25%;
+	margin: auto;
+	text-decoration: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+dl li {
+float: left;
+}
