@@ -17,11 +17,15 @@ img {
 
 h1, h2, h3 {
 	font-family: "Futura", sans-serif;
-	text-align: center;
 }
 
 h1 {
 	font-size: 2em;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
 }
 
 nav ol{
@@ -44,7 +48,7 @@ nav a {
 	color: black;
 }
 
-.billboard img {
+.billboard {
 	position: relative;
 }
 
@@ -52,7 +56,10 @@ nav a {
 	position: absolute;
 	text-align: center;
 	color: white;
-	top: 12.5em;
+	margin: auto;
+	top: 25%;
+	right: 5%;
+	left: 5%;
 }
 
 .wonder {
@@ -61,21 +68,91 @@ nav a {
 
 .wonder h3 {
 	margin-top: 0em;
+	text-align: center;
 }
 
 .wonder img {
 	width: 90%;
 	margin: 1em 1em 0.5em 1em;
 }
-.wonder a {
+
+.learn-more {
 	background-color: cyan;
+	text-align: center;
+	margin-top: 2em;
+	display: block;
 }
 
+.column-1 {
+	float: left;
+	width: 33.3333%;
+}
 
+.column-2 {
+	float: left;
+	width: 33.333%;
+}
 
+.column-3 {
+	float: left;
+	width: 33.33%;
+}
 
-dl li {
-float: left;
+dt {
+	margin: 0em;
+	padding: 0em 1em;
+}
+
+dd {
+	margin: 0em;
+	padding: 0em 1em;
+}
+
+.tickets p{
+	text-align: center;
+	margin-bottom: 0em;
+}
+
+.tickets a {
+	width: 50%;
+	text-align: center;
+	float: left;
+	margin: 1em 0em;
+}
+
+.atlantis img {
+	position: relative;
+}
+
+.atlantis h3 {
+	position: absolute;
+	text-align: center;
+	color: white;
+	margin: auto;
+	bottom: -340%;
+}
+
+.atlantis p {
+	position: absolute;
+	text-align: center;
+	color: white;
+	margin: auto;
+}
+
+.schedule {
+	list-style-type: none;
+	text-align: left;
+	padding: 0em;
+}
+
+.schedule h3 {
+	margin-left: 1em;
+	margin-bottom: 0.25em;
+}
+
+ol ul {
+	padding: 0em;
+	margin: 0em 0em 0em 2.5em;
 }
 
 footer {
