@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
- 	background-color: #fc6;
 }
 
 *, *::before, *::after {
@@ -9,6 +8,7 @@ html {
 body {
 	margin: 0em;
 	font-family: "Optima", sans-serif;
+	background-color: #fc6;
 }
 
 img {
@@ -21,8 +21,17 @@ h1, h2, h3 {
 
 h1 {
 	font-size: 1.5em;
-	padding: 0.5em 2em;
+	padding: 0em 2.5em;
 	text-align: center;
+}
+
+.masthead-logo {
+	background-image: url("../images/logo.svg");
+	background-size: 55px auto;
+	padding-top: .5em;
+	background-repeat: no-repeat;
+	background-position: left 55%;
+	margin: 1em;
 }
 
 h2 {
@@ -64,7 +73,7 @@ nav a {
 }
 
 .wonder {
-	margin-top: 1em;
+	margin-bottom: 2em;
 }
 
 .wonder h3 {
@@ -79,14 +88,12 @@ nav a {
 
 .learn-more {
 	text-align: center;
-	margin: 1em;
 	clear: both;
 }
 
 .learn-more a {
 	border-radius: 1em;
 	color: white;
-	margin: 1em;
 	padding: 0.5em;
 	background-color: #97793c;
 }
@@ -116,16 +123,28 @@ dd {
 	padding: 0em 1em;
 }
 
+.tickets {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
 .tickets p{
 	text-align: center;
-	margin-bottom: 0em;
+	margin: -1em 0em 1.25em 0em;
 }
 
 .tickets a {
 	width: 50%;
 	text-align: center;
-	float: left;
-	margin: 1em 0em;
+	margin: 1.5em 0em;
+	background-color: #97793c;
+	border-radius: 1em;
+	color: white;
+	padding: 0.5em;
+}
+
+.atlantis {
+	text-align: center;
 }
 
 .atlantis img {
@@ -147,6 +166,16 @@ dd {
 	margin: auto;
 }
 
+.atlantis a {
+	width: 50%;
+	text-align: center;
+	margin: 1.5em 0em;
+	background-color: #97793c;
+	border-radius: 1em;
+	color: white;
+	padding: 0.5em;
+}
+
 .schedule {
 	list-style-type: none;
 	text-align: left;
@@ -165,5 +194,15 @@ ol ul {
 }
 
 footer {
+	padding: 0.5em 1em 1em 1em;
+	font-size: 0.75em;
 	background-color: #B28F47;
+}
+
+footer address {
+	color: blue;
+}
+
+footer a {
+	color: blue;
 }
