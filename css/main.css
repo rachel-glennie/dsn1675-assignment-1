@@ -97,29 +97,18 @@ nav a {
 	background-color: #97793c;
 }
 
-.column-1 {
-	float: left;
-	width: 33.3333%;
-}
-
-.column-2 {
-	float: left;
-	width: 33.333%;
-}
-
-.column-3 {
-	float: left;
-	width: 33.33%;
-}
-
 dt {
 	margin: 0em;
 	padding: 0em 1em;
+	font-weight: bold;
+	float: left;
+	clear: left;
 }
 
 dd {
 	margin: 0em 0em 1em 0em;;
 	padding: 0em 1em;
+	float: left;
 }
 
 .tickets {
@@ -144,26 +133,21 @@ dd {
 
 .atlantis {
 	text-align: center;
+	position: relative;
 }
 
 .atlantis img {
 	position: relative;
 }
 
-.atlantis h3 {
+.atl-text {
 	position: absolute;
-	text-align: center;
 	color: white;
-	margin: auto;
-	bottom: -340%;
+	bottom: 25%;
+	width: 100%;
+	text-align: center;
 }
 
-.atlantis p {
-	position: absolute;
-	text-align: center;
-	color: white;
-	margin: auto;
-}
 
 .atlantis a {
 	width: 50%;
