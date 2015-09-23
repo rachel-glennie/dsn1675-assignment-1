@@ -72,16 +72,16 @@ nav a {
 	left: 5%;
 }
 
-.wonder {
+.wonder, .lighthouse {
 	margin-bottom: 2em;
 }
 
-.wonder h3 {
+.wonder h3, .lighthouse h3 {
 	margin-top: 0em;
 	text-align: center;
 }
 
-.wonder img {
+.wonder img, .lighthouse	 img {
 	padding: 1em;
 }
 
@@ -199,6 +199,14 @@ footer a {
 	.wonder {
 		width: 50%;
 		float: left;
+	}
+
+	.lighthouse {
+		text-align: center;
+		width: 50%;
+		clear: both;
+		margin: auto;
+		margin-bottom: 2em;
 	}
 
 	 .day {
