@@ -280,6 +280,20 @@ footer a {
 
 @media print {
 
+	nav ol{
+		display: none;
+	}
 
+	.wonder a {
+		display: none;
+	}
+
+	.lighthouse a {
+		display: none;
+	}
+
+	footer a {
+		display: none;
+	}
 
 }
