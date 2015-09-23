@@ -160,7 +160,7 @@ dd {
 .schedule {
 	list-style-type: none;
 	padding: 0em;
-	margin-bottom: em;
+	margin: 1em;
 }
 
 .schedule h3 {
@@ -202,9 +202,9 @@ footer a {
 	}
 
 	 .day {
-		width: 50%;
-		float: left;
-		padding: 0em 1em;
+		width: 45%;
+	 	display: inline-block;
+	 	min-height: 7em;
 	}
 
 	.tickets {
@@ -216,18 +216,13 @@ footer a {
 @media only screen and (min-width: 55em) {
 
 	 .day {
-	 	width: 33.33333%;
-	 }
-
-	 footer {
-	 	padding: 2em 1em;
+	 	width: 30%;
 	 }
 
 	 .footer-links {
-	 	width: 50%;
-	 	float: left;
-	 	padding: 2em;
-	 	background-color: white;
+	 	width: 45%;
+	 	display: inline-block;
+	 	padding: 1em;
 	 }
 
 }
