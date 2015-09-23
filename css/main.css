@@ -188,3 +188,22 @@ footer address {
 footer a {
 	color: blue;
 }
+
+@media only screen and (min-width: 37.5em) {
+
+	.wonder {
+		width: 50%;
+		float: left;
+	}
+
+	 .day {
+		width: 50%;
+		float: left;
+		padding: 0em 1em;
+	}
+
+	.tickets {
+		margin: 0em 5% 2em 5%;
+	}
+
+}
