@@ -106,19 +106,17 @@ dt {
 }
 
 dd {
-	margin: 0em 0em 1em 0em;;
-	padding: 0em 1em;
+	margin: 0em 0em 1em 0em;
 	float: left;
 }
 
 .tickets {
 	text-align: center;
-	margin-bottom: 3em;
+	display: inline-block;
 }
 
 .tickets p{
 	text-align: center;
-	margin: -1em 0em 1.25em 0em;
 }
 
 .tickets a {
@@ -162,7 +160,7 @@ dd {
 .schedule {
 	list-style-type: none;
 	padding: 0em;
-	margin-bottom: 2em;
+	margin-bottom: em;
 }
 
 .schedule h3 {
@@ -177,8 +175,15 @@ dd {
 
 footer {
 	padding: 0.5em 1em 1em 1em;
+	margin-top: 2em;
 	font-size: 0.75em;
 	background-color: #B28F47;
+	display: block;
+	clear: both;
+}
+
+footer p {
+	margin: 0em;
 }
 
 footer address {
@@ -205,5 +210,24 @@ footer a {
 	.tickets {
 		margin: 0em 5% 2em 5%;
 	}
+
+}
+
+@media only screen and (min-width: 55em) {
+
+	 .day {
+	 	width: 33.33333%;
+	 }
+
+	 footer {
+	 	padding: 2em 1em;
+	 }
+
+	 .footer-links {
+	 	width: 50%;
+	 	float: left;
+	 	padding: 2em;
+	 	background-color: white;
+	 }
 
 }
